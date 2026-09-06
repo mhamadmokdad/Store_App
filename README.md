@@ -1,16 +1,86 @@
-# store_app
+# 🛍️ Store App
 
-A new Flutter project.
+<p align="center">
+  <b>A modern and simple e-commerce mobile application built with Flutter.</b>
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white" />
+</p>
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 About
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Store App** is a Flutter-based e-commerce application designed to provide users with a simple, clean, and enjoyable shopping experience.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The application allows users to browse different categories, explore products, view product details, and add products to their shopping cart.
+
+The project focuses on building a clean user interface and practicing Flutter application development using reusable widgets and an organized project structure.
+
+---
+
+## ✨ Features
+
+- 🏠 Modern Home Screen
+- 📂 Browse Product Categories
+- 🛍️ Browse Products
+- 📱 View Product Details
+- 🛒 Add Products to Cart
+- 🧾 View Shopping Cart
+- 🔄 Navigate Between App Screens
+- 🎨 Clean and Modern UI
+- ⚡ Smooth User Experience
+- 📱 Responsive Flutter Layout
+
+---
+
+## 🖼️ Screenshots
+
+<p align="center">
+  <img src="screenshots/Screenshot_1788706950.png" width="250"/>
+  <img src="screenshots/Screenshot_1788706954.png" width="250"/>
+  <img src="screenshots/Screenshot_1788706959.png" width="250"/>
+</p>
+
+---
+
+## 🛠️ Built With
+
+| Technology | Description |
+|------------|-------------|
+| **Flutter** | Mobile application framework |
+| **Dart** | Programming language |
+| **Material Design** | UI and design components |
+| **Android SDK** | Android development |
+
+---
+
+## 📂 Project Structure
+
+```text
+lib/
+├── models/
+│   ├── categories.dart
+│   └── product.dart
+│
+├── screens/
+│   ├── Cart_Screen.dart
+│   ├── Home_Screen.dart
+│   ├── Product_Screen.dart
+│   ├── Show_Screen.dart
+│   └── Tabs_Screen.dart
+│
+├── widgets/
+│   ├── CategoryCard.dart
+│   └── Show_Card.dart
+│
+├── app_data.dart
+└── main.dart
+
+screenshots/
+├── CartScreen.png
+├── MainScreen.png
+└── ProductScreen.png
