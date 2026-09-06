@@ -35,7 +35,7 @@ The project focuses on building a clean user interface and practicing Flutter ap
 
 <p align="center">
   <img src="screenshots/MainScreen.png" width="250"/>
-  <img src="CartScreen.png" width="250"/>
+  <img src="screenshots/CartScreen.png" width="250"/>
   <img src="screenshots/ProductScreen.png" width="250"/>
 </p>
 
