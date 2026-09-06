@@ -58,7 +58,7 @@ class _StoreAppState extends State<StoreApp> {
       ),
       initialRoute: TabsScreen.routeName,
       routes: {
-        HomeScreen.routeName: (context) => HomeScreen(),
+        // HomeScreen.routeName: (context) => HomeScreen(),
         ProductScreen.routeName: (context) =>
             ProductScreen(manageCart: _manageCart, Cart: _Cart),
         ShowScreen.routeName: (context) => ShowScreen(),
